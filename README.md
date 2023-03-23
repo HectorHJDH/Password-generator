@@ -1,18 +1,14 @@
-# Password Generator Starter Code
+# Code Refactor Starter Code
 
-GIVEN I need a new, secure password <br>
-WHEN I click the button to generate a password<br>
-THEN I am presented with a series of prompts for password criteria<br>
-WHEN prompted for password criteria<br>
-THEN I select which criteria to include in the password<br>
-WHEN prompted for the length of the password<br>
-THEN I choose a length of at least 8 characters and no more than 128 characters<br>
-WHEN asked for character types to include in the password<br>
-THEN I confirm whether or not to include lowercase, uppercase, numeric, and/or special characters<br>
+## Description
 
-WHEN I answer each prompt<br>
-THEN my input should be validated and at least one character type should be selected<br>
-WHEN all prompts are answered<br>
-THEN a password is generated that matches the selected criteria<br>
-WHEN the password is generated<br>
-THEN the password is either displayed in an alert or written to the page<br>
+In this week 3 challenge, the objective was to create an application that generates passwords that depend on the data type that the user wants for its creation, these data types are divided into lowercase, uppercase, numbers and symbols, also the password length depends also of the user input.
+
+
+## Usage
+
+1. Click Generate Password
+2. Input the lenght of your password to be generated
+3. Select which data types to add to your password
+4. Finish!, 🏆 Congratulations you have generated a new Password 🏆
+
